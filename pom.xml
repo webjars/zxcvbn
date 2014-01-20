@@ -26,7 +26,7 @@
 
     <licenses>
         <license>
-            <name>Dropbox</name>
+            <name>MIT</name>
             <url>https://github.com/lowe/zxcvbn/blob/v1.0/LICENSE.txt</url>
             <distribution>repo</distribution>
         </license>
