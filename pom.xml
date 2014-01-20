@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>zxcvbn</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>zxcvbn</name>
     <description>WebJar for zxcvbn</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/zxcvbn</url>
         <connection>scm:git:https://github.com/webjars/zxcvbn.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/zxcvbn.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>zxcvbn-1.0</tag>
     </scm>
     
     <properties>
@@ -81,8 +81,8 @@
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/zxcvbn-${upstream.version}">
-                                        <include name="zxcvbn.js"/>
-                                        <include name="zxcvbn-async.js"/>
+                                        <include name="zxcvbn.js" />
+                                        <include name="zxcvbn-async.js" />
                                     </fileset>
                                 </move>
                             </target>
